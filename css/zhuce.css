@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* CSS Document */
+/*==========第一步：清间距，清样式===========*/
+body, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, dl, dd, dt, input, nav, header, section, figure, figcaption {
+  padding: 0;
+  margin: 0; }
+
+ul, ol {
+  list-style: none;
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+input {
+  outline: none;
+  border: none; }
+
+img {
+  display: inline-block;
+  border: 0; }
+
+/*==========第二步：定义全局样式=============*/
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #3e3e3e;
+  background: #fff; }
+
+/*==========第三步：定义超链接==============*/
+a {
+  text-decoration: none;
+  color: #909090; }
+
+a:hover {
+  text-decoration: underline;
+  color: #f60; }
+
+/*============公共样式============*/
+.w {
+  width: 1000px;
+  margin: 0 auto; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.denglu-box1 {
+  height: 120px; }
+  .denglu-box1 img {
+    margin-top: 16px;
+    float: left; }
+  .denglu-box1 .q1 {
+    width: 200px;
+    height: 44px;
+    line-height: 44px;
+    float: left;
+    border-left: 1px solid #ccc;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-left: 10px; }
+  .denglu-box1 .q2 {
+    float: right;
+    line-height: 44px;
+    margin-top: 20px; }
+    .denglu-box1 .q2 a {
+      padding: 0 5px;
+      color: #f00; }
+    .denglu-box1 .q2 a:hover {
+      background: red;
+      color: #fff; }
+
+.zhuce-box1 {
+  height: 720px;
+  border: 1px solid #ccc; }
+  .zhuce-box1 .u1 {
+    width: 100%;
+    height: 60px;
+    background: #fafafa; }
+    .zhuce-box1 .u1 p {
+      line-height: 60px;
+      padding-left: 80px;
+      font-size: 20px; }
+  .zhuce-box1 .u2 {
+    width: 500px;
+    height: 630px;
+    margin-left: 80px; }
+    .zhuce-box1 .u2 .u2-b1 {
+      height: 90px; }
+      .zhuce-box1 .u2 .u2-b1 div {
+        width: 248px;
+        height: 35px;
+        margin-top: 30px;
+        line-height: 35px;
+        text-align: center;
+        float: left; }
+      .zhuce-box1 .u2 .u2-b1 div:nth-child(1) {
+        position: relative;
+        border-top: 1px solid #f00;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc; }
+        .zhuce-box1 .u2 .u2-b1 div:nth-child(1) span {
+          display: block;
+          position: absolute;
+          width: 14px;
+          height: 27px;
+          background: url(../images/denglu/3.jpg);
+          top: 3px;
+          left: 70px; }
+      .zhuce-box1 .u2 .u2-b1 div:nth-child(2) {
+        border-bottom: 1px solid #ccc; }
+    .zhuce-box1 .u2 .u2-b2 {
+      width: 460px;
+      height: 85px; }
+      .zhuce-box1 .u2 .u2-b2 p {
+        height: 30px;
+        float: left;
+        line-height: 30px; }
+        .zhuce-box1 .u2 .u2-b2 p span {
+          color: #f00;
+          margin-left: 30px; }
+      .zhuce-box1 .u2 .u2-b2 input {
+        width: 290px;
+        height: 35px;
+        border: 1px solid #ccc; }
+    .zhuce-box1 .u2 p:nth-of-type(2) {
+      margin-left: 83px; }
+  .zhuce-box1 .u2-b3 {
+    width: 460px;
+    height: 80px; }
+    .zhuce-box1 .u2-b3 p {
+      float: left;
+      line-height: 30px; }
+      .zhuce-box1 .u2-b3 p span {
+        color: #f00;
+        margin-left: 30px; }
+    .zhuce-box1 .u2-b3 input {
+      width: 170px;
+      height: 35px;
+      border: 1px solid #ccc;
+      float: left; }
+    .zhuce-box1 .u2-b3 .u2-b3-yzm {
+      float: left;
+      border: 1px solid #ccc;
+      margin-left: 10px;
+      width: 96px;
+      height: 36px;
+      background: url(../images/denglu/4.jpg); }
+    .zhuce-box1 .u2-b3 .u2-b3-ht {
+      float: left;
+      height: 35px;
+      width: 40px;
+      line-height: 35px;
+      padding-left: 10px; }
+      .zhuce-box1 .u2-b3 .u2-b3-ht a {
+        color: #134ba0; }
+    .zhuce-box1 .u2-b3 .u2-b4 p {
+      float: left;
+      line-height: 30px; }
+      .zhuce-box1 .u2-b3 .u2-b4 p span {
+        color: #f00;
+        margin-left: 30px; }
+  .zhuce-box1 .u2-b4 {
+    width: 460px;
+    height: 80px; }
+    .zhuce-box1 .u2-b4 p {
+      float: left;
+      line-height: 30px; }
+      .zhuce-box1 .u2-b4 p span {
+        color: #f00;
+        margin-left: 34px; }
+    .zhuce-box1 .u2-b4 input {
+      width: 170px;
+      height: 35px;
+      border: 1px solid #ccc; }
+    .zhuce-box1 .u2-b4 button {
+      width: 110px;
+      height: 35px; }
+  .zhuce-box1 .u2-b5 {
+    width: 460px;
+    height: 80px; }
+    .zhuce-box1 .u2-b5 p {
+      float: left;
+      line-height: 30px; }
+      .zhuce-box1 .u2-b5 p span {
+        color: #f00;
+        margin-left: 40px; }
+    .zhuce-box1 .u2-b5 input {
+      width: 290px;
+      height: 35px;
+      border: 1px solid #ccc; }
+  .zhuce-box1 .u2-b6 {
+    width: 460px;
+    height: 80px; }
+    .zhuce-box1 .u2-b6 p {
+      float: left;
+      line-height: 30px; }
+      .zhuce-box1 .u2-b6 p span {
+        color: #f00;
+        margin-left: 20px; }
+    .zhuce-box1 .u2-b6 input {
+      width: 290px;
+      height: 35px;
+      border: 1px solid #ccc; }
+  .zhuce-box1 .u2-b7 input {
+    margin-left: 90px;
+    float: left; }
+  .zhuce-box1 .u2-b7 p {
+    float: left; }
+  .zhuce-box1 .u2-b7 span {
+    color: #134ba0; }
+  .zhuce-box1 .u2-b8 {
+    width: 290px;
+    height: 40px;
+    background: red;
+    margin-top: 30px;
+    margin-left: 90px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff; }
+  .zhuce-box1 .u3 {
+    width: 255px;
+    height: 320px;
+    margin-top: 30px;
+    padding-left: 25px;
+    border-left: 1px solid #ccc; }
+    .zhuce-box1 .u3 p {
+      line-height: 25px; }
+      .zhuce-box1 .u3 p a {
+        color: #134ba0; }
+    .zhuce-box1 .u3 img {
+      margin-top: 15px; }
+
+.zhuce-box2 {
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-top: 50px; }
+  .zhuce-box2 ul li {
+    float: left;
+    height: 40px;
+    line-height: 40px; }
+    .zhuce-box2 ul li a {
+      padding: 0 10px;
+      border-left: 1px solid #ccc; }
+  .zhuce-box2 li:nth-child(1) a {
+    padding-left: 0;
+    border: 0; }
+  .zhuce-box2 p {
+    float: right;
+    line-height: 40px; }

@@ -1,0 +1,481 @@
+@charset "UTF-8";
+/* CSS Document */
+/*==========第一步：清间距，清样式===========*/
+body, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, dl, dd, dt, input, nav, header, section, figure, figcaption {
+  padding: 0;
+  margin: 0; }
+
+ul, ol {
+  list-style: none;
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+input {
+  outline: none;
+  border: none; }
+
+img {
+  display: inline-block;
+  border: 0; }
+
+/*==========第二步：定义全局样式=============*/
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #3e3e3e;
+  background: #fff; }
+
+/*==========第三步：定义超链接==============*/
+a {
+  text-decoration: none;
+  color: #909090; }
+
+a:hover {
+  text-decoration: underline;
+  color: #f60; }
+
+/*============公共样式============*/
+.w {
+  width: 1200px;
+  margin: 0 auto; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.xiangqing-box1 {
+  height: 30px; }
+  .xiangqing-box1 li {
+    float: left;
+    padding: 0 5px;
+    line-height: 30px; }
+
+#xq-box2 {
+  position: relative;
+  width: 1200px;
+  height: 990px;
+  border: 1px solid #ccc; }
+  #xq-box2 #xq-box2-r1 {
+    width: 420px;
+    height: 540px;
+    float: left; }
+    #xq-box2 #xq-box2-r1 #xq-box2-r1-faj1 {
+      width: 100%;
+      height: 410px;
+      position: relative; }
+      #xq-box2 #xq-box2-r1 #xq-box2-r1-faj1 img {
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+      #xq-box2 #xq-box2-r1 #xq-box2-r1-faj1 .faj_img {
+        z-index: 5; }
+      #xq-box2 #xq-box2-r1 #xq-box2-r1-faj1 span {
+        width: 150px;
+        height: 150px;
+        background: rgba(255, 255, 0, 0.5);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10; }
+    #xq-box2 #xq-box2-r1 #xq-box2-r1-faj3 {
+      width: 420px;
+      height: 410px;
+      position: absolute;
+      left: 450px;
+      top: 0px;
+      display: none;
+      overflow: hidden;
+      z-index: 9999; }
+      #xq-box2 #xq-box2-r1 #xq-box2-r1-faj3 img {
+        position: absolute;
+        left: 0;
+        top: 0; }
+    #xq-box2 #xq-box2-r1 #xq-box2-r1-faj2 img {
+      margin-top: 20px;
+      width: 70px;
+      height: 70px; }
+    #xq-box2 #xq-box2-r1 #xq-box2-r1-faj2 img:nth-child(1) {
+      margin-left: 20px; }
+    #xq-box2 #xq-box2-r1 ul li {
+      float: left;
+      margin-top: 30px;
+      padding: 0 20px; }
+      #xq-box2 #xq-box2-r1 ul li a {
+        padding: 0 5px; }
+  #xq-box2 #xq-biaodan {
+    width: 530px;
+    height: 970px;
+    float: left;
+    margin-left: 30px; }
+    #xq-box2 #xq-biaodan p {
+      line-height: 24px; }
+    #xq-box2 #xq-biaodan #biaodan_q1 {
+      width: 530px;
+      height: 96px;
+      position: relative;
+      margin-top: 10px;
+      background: url(../images/xiangqing/18.jpg); }
+      #xq-box2 #xq-biaodan #biaodan_q1 #shijian {
+        position: absolute;
+        width: 220px;
+        height: 46px;
+        bottom: 0;
+        right: 0;
+        line-height: 46px;
+        text-align: center; }
+    #xq-box2 #xq-biaodan #biaodan_q2 {
+      width: 530px;
+      height: 110px;
+      background: #f7f7f7; }
+      #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all1 {
+        width: 100%;
+        height: 45px; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all1 p {
+          float: left;
+          line-height: 45px;
+          margin-left: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all1 p:nth-of-type(2) {
+          color: red;
+          line-height: 35px;
+          margin-top: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all1 p:nth-of-type(3) {
+          color: red;
+          font-size: 22px;
+          font-weight: 600; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all1 p:nth-of-type(4) {
+          color: #ccc;
+          text-decoration: line-through; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all1 span {
+          display: inline-block;
+          width: 65px;
+          height: 22px;
+          background: red;
+          border-radius: 3px;
+          text-align: center;
+          line-height: 22px;
+          margin-top: 10px;
+          margin-left: 20px;
+          color: #fff; }
+      #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all2 {
+        width: 100%;
+        height: 75px; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all2 p {
+          float: left;
+          margin-left: 10px;
+          margin-top: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all2 span {
+          display: inline-block;
+          float: left;
+          width: 30px;
+          height: 20px;
+          background: red;
+          border-radius: 3px;
+          margin-left: 15px;
+          margin-top: 10px;
+          text-align: center;
+          line-height: 20px;
+          color: #fff; }
+        #xq-box2 #xq-biaodan #biaodan_q2 .biaodan_all2 .zengpin {
+          width: 262px;
+          height: 55px;
+          float: left;
+          margin-left: 20px; }
+    #xq-box2 #xq-biaodan #biaodan_q3 {
+      width: 530px;
+      height: 160px;
+      border-bottom: 1px solid #ccc; }
+      #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all3 {
+        height: 60px; }
+        #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all3 p {
+          float: left;
+          line-height: 60px;
+          margin-left: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all3 select {
+          float: left;
+          height: 30px;
+          border: 1px solid #ccc;
+          margin-top: 15px;
+          margin-left: 20px; }
+      #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all4 {
+        height: 30px; }
+        #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all4 p {
+          float: left;
+          line-height: 30px; }
+          #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all4 p span {
+            color: red; }
+        #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all4 p:nth-child(1) {
+          margin-left: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all4 p:nth-child(2) span {
+          border-right: 1px solid #ccc;
+          padding-right: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_q3 .biaodan_all4 p:nth-child(3) {
+          padding-left: 10px; }
+    #xq-box2 #xq-biaodan .biaodan_all5 {
+      padding-left: 10px; }
+    #xq-box2 #xq-biaodan .biaodan_all6 {
+      width: 350px;
+      height: 44px;
+      margin-left: 70px; }
+      #xq-box2 #xq-biaodan .biaodan_all6 li {
+        position: relative;
+        width: 33%;
+        float: left;
+        line-height: 44px;
+        text-align: center; }
+        #xq-box2 #xq-biaodan .biaodan_all6 li img {
+          position: absolute;
+          top: 10px;
+          left: 10px; }
+    #xq-box2 #xq-biaodan #biaodan_xiala {
+      width: 530px;
+      height: 500px; }
+      #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q1 {
+        width: 530px;
+        height: 47px;
+        background: #f7f7f7; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q1 .p1 {
+          line-height: 47px;
+          margin-left: 10px;
+          color: red;
+          float: left; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q1 .xiala_q1_aaa {
+          width: 250px;
+          height: 30px;
+          float: left;
+          background: #fff;
+          border: 1px solid #ccc;
+          margin-top: 8px;
+          margin-left: 10px;
+          text-align: center; }
+          #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q1 .xiala_q1_aaa span {
+            display: inline-block;
+            float: left;
+            background: red;
+            margin-left: 10px;
+            margin-top: 7px; }
+          #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q1 .xiala_q1_aaa p {
+            float: left;
+            width: 200px;
+            line-height: 30px;
+            text-align: center; }
+      #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q2 {
+        height: 50px;
+        width: 100%; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q2 p {
+          float: left;
+          line-height: 60px;
+          margin-left: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q2 span {
+          display: inline-block;
+          border: 1px solid #ccc;
+          padding: 3px 5px;
+          margin-top: 17px;
+          margin-left: 5px; }
+      #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q3 {
+        height: 50px;
+        width: 100%; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q3 div {
+          float: left;
+          line-height: 60px;
+          margin-left: -30px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q3 span {
+          display: inline-block;
+          border: 1px solid #ccc;
+          padding: 3px 5px;
+          margin-top: 17px;
+          margin-left: 5px; }
+      #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q4 {
+        height: 50px;
+        width: 100%; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q4 p {
+          float: left;
+          line-height: 60px;
+          margin-left: -55px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q4 span {
+          display: inline-block;
+          border: 1px solid #ccc;
+          padding: 3px 5px;
+          margin-top: 17px;
+          margin-left: 5px; }
+      #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q7 {
+        width: 450px;
+        height: 56px;
+        background: #f7f7f7;
+        border: 1px solid #ccc;
+        margin-left: 68px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala .biaodan_xiala_q7 p {
+          margin-left: 15px; }
+      #xq-box2 #xq-biaodan #biaodan_xiala #shuliang {
+        height: 60px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala #shuliang p {
+          float: left;
+          line-height: 60px;
+          margin-left: 10px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala #shuliang #shuliang_jiajian div {
+          margin-top: 15px;
+          float: left;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 10px;
+          background: #f7f7f7;
+          border: 1px solid #ccc; }
+        #xq-box2 #xq-biaodan #biaodan_xiala #shuliang #shuliang_jiajian div:nth-child(2) {
+          background: #fff;
+          border-left: 0px;
+          border-right: 0px; }
+      #xq-box2 #xq-biaodan #biaodan_xiala #biaodan_goumai {
+        width: 100%;
+        height: 80px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala #biaodan_goumai div {
+          width: 140px;
+          height: 48px;
+          border-radius: 3px;
+          float: left;
+          line-height: 48px;
+          text-align: center;
+          margin-top: 20px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala #biaodan_goumai .goumai {
+          background: #cc0000;
+          margin-left: 68px; }
+        #xq-box2 #xq-biaodan #biaodan_xiala #biaodan_goumai .gouwuche {
+          background: #ffeded;
+          margin-left: 10px; }
+  #xq-box2 #xiangqing_bianlan {
+    width: 219px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    float: left; }
+    #xq-box2 #xiangqing_bianlan #bianlan_header {
+      height: 32px;
+      background: #f7f7f7; }
+      #xq-box2 #xiangqing_bianlan #bianlan_header p {
+        float: left;
+        line-height: 32px;
+        margin-left: 10px; }
+      #xq-box2 #xiangqing_bianlan #bianlan_header span {
+        float: right;
+        line-height: 32px;
+        margin-right: 10px;
+        color: #3366cc; }
+    #xq-box2 #xiangqing_bianlan #bianlan_main {
+      width: 170px;
+      height: 230px;
+      margin: 0 auto;
+      border-bottom: 1px dashed #ccc; }
+      #xq-box2 #xiangqing_bianlan #bianlan_main img {
+        width: 170px; }
+      #xq-box2 #xiangqing_bianlan #bianlan_main p {
+        line-height: 20px;
+        margin-top: 10px; }
+      #xq-box2 #xiangqing_bianlan #bianlan_main div span:nth-child(1) {
+        float: left;
+        line-height: 30px;
+        margin-left: 10px;
+        color: red;
+        font-size: 14px; }
+      #xq-box2 #xiangqing_bianlan #bianlan_main div span:nth-child(2) {
+        float: right;
+        line-height: 30px;
+        text-decoration: line-through;
+        margin-right: 10px; }
+
+#xiangqing_box3 {
+  margin-top: 10px;
+  overflow: hidden; }
+  #xiangqing_box3 #box3_Q1 {
+    width: 200px;
+    float: left;
+    border: 1px solid #ccc; }
+    #xiangqing_box3 #box3_Q1 #box3_header {
+      height: 33px;
+      background: #f7f7f7;
+      border-bottom: 1px solid #ccc;
+      line-height: 33px;
+      padding-left: 10px; }
+    #xiangqing_box3 #box3_Q1 #box3_Q1_aaa {
+      height: 233px;
+      border-bottom: 1px solid #ccc; }
+      #xiangqing_box3 #box3_Q1 #box3_Q1_aaa img {
+        margin-top: 5px; }
+      #xiangqing_box3 #box3_Q1 #box3_Q1_aaa span {
+        color: red; }
+  #xiangqing_box3 #box3_daohang {
+    width: 980px;
+    float: right; }
+    #xiangqing_box3 #box3_daohang ul {
+      height: 35px;
+      width: 100%;
+      background: #f7f7f7;
+      border: 1px solid #ccc; }
+      #xiangqing_box3 #box3_daohang ul li {
+        float: left;
+        padding: 0 15px;
+        line-height: 35px;
+        border-right: 1px solid #ccc; }
+        #xiangqing_box3 #box3_daohang ul li span {
+          color: red;
+          font-size: 600; }
+      #xiangqing_box3 #box3_daohang ul li:nth-child(7) {
+        position: relative;
+        width: 150px;
+        padding: 0;
+        text-align: center; }
+        #xiangqing_box3 #box3_daohang ul li:nth-child(7) span {
+          display: block;
+          width: 20px;
+          height: 19px;
+          position: absolute;
+          left: 25px;
+          top: 5px; }
+        #xiangqing_box3 #box3_daohang ul li:nth-child(7) div {
+          position: absolute;
+          width: 150px;
+          height: 150px;
+          top: 35px;
+          left: 0;
+          display: none; }
+      #xiangqing_box3 #box3_daohang ul li:nth-child(7):hover div {
+        display: block; }
+    #xiangqing_box3 #box3_daohang #box3_aaa {
+      width: 790px;
+      float: left; }
+      #xiangqing_box3 #box3_daohang #box3_aaa p {
+        height: 44px;
+        line-height: 44px; }
+      #xiangqing_box3 #box3_daohang #box3_aaa .box3_aaa_w1 {
+        width: 790px;
+        height: 32px;
+        background: url(../images/xiangqing/32.jpg);
+        line-height: 32px; }
+        #xiangqing_box3 #box3_daohang #box3_aaa .box3_aaa_w1 span {
+          margin-left: 50px;
+          font-size: 18px;
+          color: red; }
+      #xiangqing_box3 #box3_daohang #box3_aaa img {
+        margin-top: 10px; }
+    #xiangqing_box3 #box3_daohang #box3_bbb {
+      width: 188px;
+      height: 900px;
+      float: right;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      background: #f7f7f7; }
+      #xiangqing_box3 #box3_daohang #box3_bbb p {
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        position: relative; }
+        #xiangqing_box3 #box3_daohang #box3_bbb p span {
+          display: block;
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background: #ccc;
+          left: 50px;
+          top: 20px; }
+      #xiangqing_box3 #box3_daohang #box3_bbb p:hover span {
+        background: red; }

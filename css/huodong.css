@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+/*==========第一步：清间距，清样式===========*/
+body, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, dl, dd, dt, input, nav, header, section, figure, figcaption {
+  padding: 0;
+  margin: 0; }
+
+ul, ol {
+  list-style: none;
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+input {
+  outline: none;
+  border: none; }
+
+img {
+  display: inline-block;
+  border: 0; }
+
+/*==========第二步：定义全局样式=============*/
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #3e3e3e;
+  background: #fff; }
+
+/*==========第三步：定义超链接==============*/
+a {
+  text-decoration: none;
+  color: #909090; }
+
+a:hover {
+  text-decoration: underline;
+  color: #f60; }
+
+/*============公共样式============*/
+.w {
+  width: 1200px;
+  margin: 0 auto; }
+
+.l {
+  float: left; }
+
+.r {
+  float: right; }
+
+.p {
+  text-align: center;
+  width: 100%; }
+
+.p:hover {
+  color: #d85050;
+  cursor: pointer; }
+
+#huodong_img {
+  height: 1171px;
+  width: 100%;
+  overflow: hidden; }
+
+#huodong_main {
+  height: 1612px;
+  width: 100%;
+  background: url(../images/huodong/2.jpg) repeat-x; }
+  #huodong_main .huodong_main_ul1 {
+    height: 750px;
+    background: #f7f7f7; }
+    #huodong_main .huodong_main_ul1 li {
+      width: 230px;
+      padding: 0 20px;
+      height: 350px;
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 20px; }
+      #huodong_main .huodong_main_ul1 li img {
+        width: 100%;
+        margin-top: 20px;
+        cursor: pointer; }
+      #huodong_main .huodong_main_ul1 li p {
+        line-height: 20px; }
+      #huodong_main .huodong_main_ul1 li .main_ul1_div {
+        width: 100%;
+        height: 40px; }
+        #huodong_main .huodong_main_ul1 li .main_ul1_div span {
+          display: inline-block;
+          margin-top: 10px; }
+        #huodong_main .huodong_main_ul1 li .main_ul1_div span:nth-child(1) {
+          color: red; }
+        #huodong_main .huodong_main_ul1 li .main_ul1_div span:nth-child(2) {
+          color: red;
+          font-size: 24px; }
+        #huodong_main .huodong_main_ul1 li .main_ul1_div span:nth-child(3) {
+          width: 90px;
+          float: right;
+          height: 30px;
+          background: red;
+          color: #fff;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 3px;
+          cursor: pointer; }
+  #huodong_main .huodong_main_div {
+    height: 107px;
+    background: url(../images/huodong/3.jpg) no-repeat center; }
+
+#huodong_biao {
+  height: 651px;
+  background: url(../images/huodong/6.jpg) repeat-x; }
+  #huodong_biao img {
+    margin: 0 auto;
+    display: block;
+    height: 100%; }
+
+#huodong_liebiao {
+  width: 100%;
+  height: 1335px;
+  background: url(../images/huodong/7.jpg) repeat-x; }
